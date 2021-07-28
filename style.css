@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.welcome{
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(250, 9, 9), rgb(67, 226, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: salmon;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(salmon, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.half-width{
+    width: 40%;
+    margin: 0 5% 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width p{
+    font-size: 20px;
+    text-align: justify;
+}
+.flex-container{
+    display: flex;
+}
+.information{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: cover;
+}
+.information h1{
+    color: tomato;
+}
+.item-area{
+    align-items: center;
+}
+.quater{
+  margin-left: 3%;
+  padding: ;
+}
+.quater-width{
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 3px 40px 0 grey;
+    margin: 0 3% 3% 3%;
+    padding: 2%;
+}
+.quater-width img{
+    width: 95%;
+    padding: 3%;
+    
+    
+}
