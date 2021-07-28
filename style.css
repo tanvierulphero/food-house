@@ -59,8 +59,9 @@ span{
     padding: 2%;
 }
 .quater-width img{
+    border-radius: 20px;
     width: 95%;
     padding: 3%;
-    
+       
     
 }
