@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0 auto;
 }
 .welcome{
     text-align: center;
@@ -7,6 +7,9 @@ body{
     background: -webkit-linear-gradient(rgb(250, 9, 9), rgb(67, 226, 4));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.top-area{
+    margin-left: 5%;
 }
 h1{
     font-size: 50px;
@@ -45,14 +48,20 @@ span{
 }
 .item-area{
     align-items: center;
+    margin-top: 5%;
+}
+.Choices{
+    text-align: center;
+    margin: 0 auto;
+    
 }
 .quater{
-  margin-left: 3%;
-  padding: ;
+  margin-left: 0;
+  
 }
 .quater-width{
     width: 400px;
-    height: 500px;
+    height: 450px;
     border-radius: 15px;
     box-shadow: 0 3px 40px 0 grey;
     margin: 0 3% 3% 3%;
@@ -64,4 +73,33 @@ span{
     padding: 3%;
        
     
+}
+
+.rank{
+    text-align: center;
+    width: 1280px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0 3px 40px 0 grey;
+    margin: 0 auto;
+    }
+.youtube{
+    margin-left: 10%;
+    padding-left: 10%;
+}
+
+.rank h3{
+    font-size: 30px;
+}
+footer{
+    font-size: 40px;
+    text-align: center;
+    height: 250px;
+    margin-top: 5%;
+    padding-top: 4px;
+    background-color: black;
+    color: white;
+}
+footer h5{
+    font-size: 20px;
 }
